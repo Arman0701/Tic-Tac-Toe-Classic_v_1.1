@@ -1,0 +1,82 @@
+.headerWrapper {
+    position: absolute;
+    top: 0%;
+    width: 98vw;
+    height: 40px;
+    margin: 5px 1vw;
+    display: flex;
+    align-items: center;
+
+    .searchIconWrapper {
+        width: 40px;
+        aspect-ratio: 1/0.9;
+        padding: 5px;
+        cursor: pointer;
+        position: absolute;
+        left: 0;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .headerTitle {
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        color: white;
+        font-weight: 500;
+        font-size: 23px;
+        font-family: "Pacifico", sans-serif;
+    }
+
+    .accountIconWrapper {
+        cursor: pointer;
+        width: 40px;
+        aspect-ratio: 1/1;
+        border: 2px solid white;
+        border-radius: 50%;
+        position: absolute;
+        right: 0;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+.popupContent {
+    width: fit-content;
+    background: rgba(0, 0, 0, 0.23);
+    backdrop-filter: blur(5px);
+    margin-bottom: 10px;
+    border-radius: 5px;
+
+    p {
+        font-size: 17px;
+        color: white;
+        padding: 5px 15px;
+        margin: 5px 15px;
+		width: 100px;
+
+        text-align: center;
+        transition: all ease-in-out 0.15s;
+        cursor: pointer;
+        border-radius: 5px;
+
+        &:hover {
+            border: none;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+                rgba(0, 0, 0, 0.12) 0px -12px 30px,
+                rgba(0, 0, 0, 0.12) 0px 4px 6px,
+                rgba(0, 0, 0, 0.17) 0px 12px 13px,
+                rgba(0, 0, 0, 0.09) 0px -3px 5px;
+            transform: scale(1.05);
+        }
+    }
+}

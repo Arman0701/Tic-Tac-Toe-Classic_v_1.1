@@ -1,0 +1,33 @@
+.signupForm {
+	padding: 15px 0px;
+	width: 100%;
+
+	label {
+		margin: 20px 0;
+		padding: 5px 0;
+		text-align: left;
+		p {
+			font-size: 1rem;
+			margin-bottom: 0.5rem;
+			color: white;
+		}
+
+		input {
+			padding: 3px 8px;
+			background: none;
+			border-bottom: 2px solid white;
+			width: 100%;
+			margin-bottom: 20px;
+			font-size: 1rem;
+			color: white;
+		}
+	}
+	.signupButton {
+		width: 100%;
+		border: 2px solid white;
+		border-radius: 4px;
+		margin-top: 20px;
+		padding: 8px 0;
+		cursor: pointer;
+	}
+}
